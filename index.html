@@ -16,16 +16,15 @@
 
   <body onload="openIntro()">
     <div id="myIntro" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeIntro()"><i class="fas fa-water"></i></a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeIntro()" style="color:#f1f1f1"><i class="fas fa-water"></i></a>
       <div class="overlay-content">
         <h1>Storm Risk and Environmental Hazards in NYC</h1>
-        <p>New York City is vulnerable to coastal storms, including nor'easters,
-          tropical storms and hurricanes. </p>
-        <p>Residents living in flood-prone areas face
-          risks not only from coastal storms themselves, but also from long-term
-          environmental and public health hazards associated with flooding in these
-          areas. Much of this is linked to the long history of
-          manufacturing and industrial enterprises in New York.</p>
+        <p>As a densely populated coastal city, New York City is highly vulnerable
+          to coastal storms, including nor'easters, tropical storms and hurricanes. </p>
+        <p>Residents living in flood-prone areas face risks not only from coastal
+          storms themselves, but also from long-term environmental and public
+          health hazards. Much of this is linked to the long history of
+          manufacturing and industrial enterprises on the city's waterfront.</p>
         <p><i class="fas fa-info-circle"></i> <b>Click <i class="fas fa-water"></i> to launch the map. </p>
         <p>
           <div class="credit"><i>This website was created for the graduate course "Interactive Web Mapping and Spatial Data Visualization" at NYU Wagner. Image shows aerial views from Hurricane Sandy storm
@@ -39,69 +38,191 @@
     <div id="container">
       <div id="features">
         <section id="intro" class="active">
-          <h2>Areas of increased flood and storm risk</h2>
+          <h2>Navigating flood and storm risk</h2>
           <p>As part of its disaster management planning, the City of New York has
             designated six hurricane evacuation zones to identify areas likely to
             be inundated by storm surge. In the event of a hurricane or tropical
             storm, residents in the hurricane zones may be ordered to evacuate.</p>
+          <p>
+            <div style="display:inline-block">
+              <img src="./images/badge01.png" style="max-width:60px"><img src="./images/badge02.png" style="max-width:60px">
+              <img src="./images/badge03.png" style="max-width:60px"><img src="./images/badge04.png" style="max-width:60px">
+              <img src="./images/badge05.png" style="max-width:60px"><img src="./images/badge06.png" style="max-width:60px"></div>
+          </p>
           <p>There are six levels of evacuation zones. <b>Zone 1</b>
             has the highest risk and is the most likely to flood.</p>
-          <p><i class="fas fa-info-circle"></i><i><small> Use the buttons on the right side of the map to explore the evacuation zones.</small></i></p>
+          <p><i class="fas fa-info-circle"></i><small> Use the buttons on the
+                right side of the map to explore the evacuation zones.</small></p>
         </section>
         <section id="rockaways">
           <h2>Storms and economic inequality</h2>
-          <p>For many New Yorkers, the city's storm vulnerability was made very
-            apparent when Hurricane Sandy hit on October 29, 2012. The storm resulted
-            in 44 deaths, and an estimated
-            <a href="https://www1.nyc.gov/site/cdbgdr/about/About%20Hurricane%20Sandy.page" target="_blank">$19
-              billion in damages and economic loses</a>. More than 69,000 residential
+          <p>For many New Yorkers, the city's storm vulnerability was made
+            frighteningly apparent when Hurricane Sandy hit on October 29, 2012.
+            The storm resulted in 44 deaths, and an estimated <a href="https://www1.nyc.gov/site/cdbgdr/about/About%20Hurricane%20Sandy.page" target="_blank">$19
+              billion in economic loses</a>. More than 69,000 residential
             units were damaged, and thousands of residents were temporarily displaced.</p>
 
-          <p>One of the communities that was hardest hit was the Rockaways, the
-            community that sits on a barrier beach off the southeast end of Queens.
-            Even before Sandy, the area suffered from deep income inequalities. A
+          <p>One of the communities hardest hit by the storm was the Rockaways, the
+            area that sits on a barrier beach off the southeast end of Queens.
+            Even before Sandy, the Rockaways suffered from deep income inequalities. A
             quarter of the Far Rockaway population (<a href="https://prospect.org/infrastructure/hurricane-sandy-inequalities-resilience-new-york/" target="_blank">and
-            one-third of all children on the peninsula</a>) live below the
-            federal poverty level. Re-development of the area post-Sandy has led to further economic disparities.</p>
-          <p><img src="./images/01.jpg"></p>
-          <p><img src="./images/02.jpg"></p>
-          <p><img src="./images/03.jpg"></p>
+              one-third of all children on the peninsula</a>) live below the
+            federal poverty level. Re-development of the area post-Sandy has led
+            to <a href="https://www.citylab.com/life/2019/08/rockaway-beach-hurricane-sandy-climate-change-gentrification/596080/" target="_blank">further
+              economic disparities</a>.</p>
           <p>
-            <div class="credit"><i>(Images courtesy Inside Climate News, WBUR, Curbed New York)</i></div>
+            <div class="credit">
+              <img src="./images/01.jpg"></br></br>
+              <img src="./images/02.jpg"></br></br>
+              <img src="./images/03.jpg"></br>
+              <i>(Images credits: Inside Climate News, WBUR, Curbed New York)</i></div>
           </p>
         </section>
         <section id="smias">
           <h2>Flooding and industrial hazards</h2>
-          <p>Because of the industrial history of NYC's waterfront, there are also
-            many environmental hazards associated with floods and storm surge.</p>
-          <p>Of particular interest are the six designated <b>Significant Maritime
-            and Industrial Areas (SMIAs).</B> SMIAs are zoned for industrial use,
-            which means facilities in these areas use, store, or
-            transport <a href="https://www.epa.gov/sites/production/files/2016-08/documents/communityresilienceinejindustrialwaterfrontcommunities.pdf" target="_blank">hazardous
-            or toxic substances</a> at higher concentrations. </p>
-          <p>Each of the six SMIAs (South Bronx, Newtown Creek, Brooklyn Navy Yard, Red Hook Container Terminal,
-            Sunset Park/Erie Basin, Kill Van Kull, and Staten Island West Shore) are
-            also within the hurricane evacuation zones. As these areas are vulnerable to
-            flooding and storm surge, the risk of accidental or uncontrolled release of
-            toxic substances is heightened, leading to significant environmental pollution
-            and public health hazards.</p>
-          <p>We'll explore unique vulnerabilities in each of the SMIAs, based on research from <a href="https://nycejalliance.tumblr.com/post/132225273641/the-six-significant-maritime-and-industrial-areas" target="_blank">New York City Environmental
-              Justice Alliance</a>.</p>
-          <p><img src="./images/newtown.jpg"></p>
+          <p>The City of New York has made numerous efforts to protect its working
+            waterfront, including the designation of seven <b>Significant Maritime
+              and Industrial Areas (SMIAs)</b>.</p>
+          <p>
+            SMIAs are designed to protect and
+            encourage concentrated use of the waterfront for industrial firms and
+            water-dependent businesses. However, because of the industrial nature
+            of these areas, the SMIAs are home to facilities that use, store, or transport
+            <a href="https://www.epa.gov/sites/production/files/2016-08/documents/communityresilienceinejindustrialwaterfrontcommunities.pdf" target="_blank">hazardous
+              or toxic substances</a> at higher concentrations. </p>
+          <p>
+            <div class="credit"><img src="./images/smia.jpg"><br><i>(Image credit: City Limits)</i></div>
+          </p>
+          <p>All of the SMIAs are located within hurricane evacuation
+            zones. This means the risk of accidental or uncontrolled release of
+            toxic substances due to flood or storm surge is heightened. This
+            represents significant environmental and public health risks
+            for the surrounding communities.</p>
+          <p>Next, we'll explore some of the unique vulnerabilities of these areas,
+            based on research from <a href="https://nycejalliance.tumblr.com/post/132225273641/the-six-significant-maritime-and-industrial-areas" target="_blank">New York City
+              Environmental Justice Alliance</a>.</p>
+          <p>
+            <div class="credit"><img src="./images/newtown.jpg"></br>
+              <i>(Images credits: The New York Times)</i></div>
+          </p>
         </section>
         <section id="newtown">
-          <h2>Newtown Creek SMIA</h2>
-          <p>Newtown Creek is known for the Greenpoint Oil Spill, one of the largest oil spills ever recorded in the United States.
-            More than 17 million gallons of petroleum (more than twice the amount of crude oil that spilled from the Exxon Valdez)
-            were leaked into the soil over the course of several decades.</p>
-          <p><img src="./images/oilspill.jpg"></p>
+          <h2>Newtown Creek: A federal superfund site</h2>
+          <p>Newtown Creek is a 3.5-mile tributary of the East River that forms
+            part of the border between the boroughs of Brooklyn and Queens. The
+            area is known for its long industrial history, as well as the Greenpoint
+            Oil Spill, one of the largest oil spills ever recorded in the United States.
+            More than 17 million gallons of petroleum (more than
+            <a href="https://www.nytimes.com/2007/07/18/nyregion/18spill.html" target="_blank">twice the amount of crude oil</a>
+            that spilled from the Exxon Valdez) leaked into the soil of the creekbed
+            and surrrounding area over the course of nearly three decades.</p>
           <p>
-            <div class="credit">(Image courtesy Newtown Creek Alliance)</div>
+            <div class="credit"><img src="./images/oilspill.jpg"><br /><i>(Image credit: Newtown Creek Alliance)</i></div>
           </p>
-          <P>Today, the entirety of Newtown Creek is a federal superfund site. According to the U.S. Environmental Protection Agency, soil in the Newtown Creek area still contains metals, volatile organic
-            compounds, and semi-volatile organic compounds (including polycyclic aromatic hydrocarbons and polychlorinated biphenyls)
-            concentrations above levels in nearby locations in the Atlantic Basin. Additionally, businesses located in the SMIA use
-            industrial solvents containing trichloroethylene, a known carcinogen.</p>
+
+          <P>Today, the entirety of Newtown Creek is a <a href="https://www.epa.gov/enforcement/case-summary-settlement-reached-newtown-creek-superfund-site" target="_blank">federal
+              superfund site</a>, and its banks also include New York State
+            superfund and brownfield sites, and numerous businesses
+            that use industrial solvents containing trichloroethylene, a known
+            carcinogen. During Hurricane Sandy, residents reported standing water
+            with <a href="http://www.dec.ny.gov/docs/regions_pdf/97epaej.pdf" target="_blank">noxious odor</a>
+            and <a href="http://www.newtowncreekalliance.org/what-does-hurricane-sandy-reveal-about-newtown-creek/" target="_blank">an
+              oily sheen</a>. The contaminated water penetrated businesses and homes, complicating cleanup efforts.
+        </section>
+        <section id="bronx">
+          <h2>South Bronx: High-capacity chemical and oil storage</h2>
+          <p>New York state regulates and monitors faciliities that store petroleum,
+            hazardous substances/chemicals or liquefied natural gas at high
+            capacities. Improper handling of these substances represents siginificant
+            public safety hazards including fires and chemical burns, as well as
+            long-term health risks from exposure to toxic substances. </p>
+          <p>
+            <div class="credit"><img src="./images/portmorris.jpg"></br>
+              <i>(Image credit: Untapped Cities)</i></div>
+          </p>
+          <p>There are 171 of these facilities in New York City, but 11% are clustered
+            within a half-mile of highly flood-vulnerable South Bronx SMIA. Accidential spills
+            of toxic materials at these facilities can easily spread to nearby wells, water bodies and homes.</p>
+          <p>
+            In addition to the SMIA, the area is also surrounded by numerous
+            highways, fossil fuel power plants, waste transfer stations, and
+            diesel truck-intensive facilities. Because of the high intensity of industrial
+            use, residents of the area have
+            <a href="http://southbronxunite.org/environmental-justice/" target="_blank">no recreational
+              access to the waterfront</a> at all.
+          </p>
+
+        </section>
+        <section id="sunset">
+          <h2>Sunset Park SMIA: TRI Sites</h2>
+          <p>The Sunset Park SMIA is home to 17 sites listed on the U.S. EPA's
+            Toxic Release Inventory (TRI). TRI tracks the management of
+            certain toxic chemicals that may pose a threat to human health and the
+            environment. </P>
+          <P>As The New York Times reported, frequent and extensive flooding
+            from coastal storms like hurricanes <a href="https://www.nytimes.com/interactive/2018/02/06/climate/flood-toxic-chemicals.html" target="_blank">may
+              increase the risk of spills</a> at chemical facilities near waterways.
+            Federal law does not explicitly require TRI sites to take extra
+            precautions against flooding even if they are located in floodprone areas.
+            <p>
+              <div class="credit"><img src="./images/sunset.jpg"></br>
+                <i>(Image credit: Untapped Cities)</i></div>
+            </p>
+        </section>
+        <section id="redhook">
+          <h2>Industrial flooding during Sandy: Red Hook and Gowanus</h2>
+          <p>When Hurricane Sandy hit the southwest Brooklyn neighborhoods of
+            Red Hook and Gowanus, the dangers of flooding and storm surge were
+            accompanied by fears of long-term health effects from contaiminated in the water.</P>
+          <p>In addition to the Red Hook SMIA, the area is home to the Gowanus Canal, a
+            Federal superfund site considered to be <a href="https://www.nytimes.com/2010/03/03/nyregion/03gowanus.html" target="_blank">one
+              of the most contaiminated bodies of water</a> in the country, as well as <a href="https://www.nytimes.com/2018/05/04/nyregion/saga-of-the-toxic-ball-fields.html" target="_blank">state brownfields, </a> and
+            an aging and over-burdened sewer system. Residents
+            forced to wade through the water brought in by Sandy
+            reported <a href="https://www.nytimes.com/2012/11/06/nyregion/gowanus-canal-flooding-brings-contamination-concerns.html" target="_blank">"a
+              greasy, oily slick"</a> that clung to their skin. </p>
+          <div class="credit">
+            <img src="./images/redhook01.jpg"></br></br>
+            <img src="./images/redhook2.jpg"></br></br>
+            <img src="./images/gowanus.jpg"></br>
+            <i>(Images credits: New York Daily News, Brownstoner, The Real Deal)</i></div>
+        </section>
+        <section id="conclusion">
+          <h2>Who is at risk?</h2>
+          <p>In addition to the immediate risks from storm surge, coastal storms
+            increase the risk of environmental hazards which translate into negative
+            health effects, loss of wages, and housing instability. For these reasons
+            low-income residents are likely to bear the greatest burdens of environmental
+            hazards.
+          </P>
+          <p> All seven SMIAs are located in <a href="https://www.nyc-eja.org/wp-content/uploads/2010/06/NYC-EJA_Waterfront-Justice-Project_Presentation.pdf" target="_blank">predominantly low-income,
+            communities of color</a>.</p>
+            <p><i class="fas fa-info-circle"></i><small> Use the buttons below to explore
+            median household incomes of the census tracts within the SMIAs.</small> </p>
+          <p>
+            <div class="row">
+              <div class="column" id="column-a">
+                <div class="legend">
+                  <h4>Median Household Income</h4>
+                  <div><span style="background-color: #8c510a"></span> Less than $24,000</div>
+                  <div><span style="background-color: #d8b365"></span> $24,000-$39,000</div>
+                  <div><span style="background-color: #f6e8c3"></span> $39,000-$53,000</div>
+                  <div><span style="background-color: #c7eae5"></span> $53,000-$68,000</div>
+                  <div><span style="background-color: #5ab4ac"></span> $68,000-$82,000</div>
+                  <div><span style="background-color: #01665e"></span> More than $82,000</div>
+                </div>
+              </div>
+              <div class="column" id="column-b">
+                <button class='flyto-button' id="flybrooklyn">Brooklyn Navy Yard</button></br>
+                <button class='flyto-button' id="flykill">Kill Van Kull</button></br>
+                <button class='flyto-button' id="flynewtown">Newtown Creek</button></br>
+                <button class='flyto-button' id="flyredhook">Red Hook Container Terminal</button></br>
+                <button class='flyto-button' id="flybronx">South Bronx</button></br>
+                <button class='flyto-button' id="flysi">Staten Island West Shore</button></br>
+                <button class='flyto-button' id="flysunset">Sunset Park</button></br>
+              </div>
+            </div>
+          </p>
         </section>
       </div>
     </div>
@@ -111,7 +232,6 @@
     <script src='js/scripts.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
-
   </body>
 
 </html>

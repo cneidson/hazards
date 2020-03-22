@@ -14,3 +14,7 @@ at NYU Wagner.
 [MapBox Tutorial: Create a choropleth map](https://docs.mapbox.com/studio-manual/examples/choropleth-map/)
 
 [W3 Schools: Fullscreen Overlay Nav Example](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_overlay)
+
+[Fontawesome](https://fontawesome.com/)
+
+[Google Fonts] (https://fonts.google.com/)

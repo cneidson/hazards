@@ -16,7 +16,7 @@
 
   <body onload="openIntro()">
     <div id="myIntro" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeIntro()" style="color:#f1f1f1"><i class="fas fa-water"></i></a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeIntro()"><i class="fas fa-water"></i></a>
       <div class="overlay-content">
         <h1>Storm Risk and Environmental Hazards in NYC</h1>
         <p>As a densely populated coastal city, New York City is highly vulnerable
@@ -44,15 +44,15 @@
             be inundated by storm surge. In the event of a hurricane or tropical
             storm, residents in the hurricane zones may be ordered to evacuate.</p>
           <p>
-            <div style="display:inline-block">
-              <img src="./images/badge01.png" style="max-width:60px"><img src="./images/badge02.png" style="max-width:60px">
-              <img src="./images/badge03.png" style="max-width:60px"><img src="./images/badge04.png" style="max-width:60px">
-              <img src="./images/badge05.png" style="max-width:60px"><img src="./images/badge06.png" style="max-width:60px"></div>
+            <div style="display:inline-block" width="90%">
+              <img src="./images/badge01.png" style="max-width:53px"><img src="./images/badge02.png" style="max-width:53px">
+              <img src="./images/badge03.png" style="max-width:53px"><img src="./images/badge04.png" style="max-width:53px">
+              <img src="./images/badge05.png" style="max-width:53px"><img src="./images/badge06.png" style="max-width:53px"></div>
           </p>
           <p>There are six levels of evacuation zones. <b>Zone 1</b>
             has the highest risk and is the most likely to flood.</p>
           <p><i class="fas fa-info-circle"></i><small> Use the buttons on the
-                right side of the map to explore the evacuation zones.</small></p>
+              right side of the map to explore the evacuation zones.</small></p>
         </section>
         <section id="rockaways">
           <h2>Storms and economic inequality</h2>
@@ -121,7 +121,7 @@
           </p>
 
           <P>Today, the entirety of Newtown Creek is a <a href="https://www.epa.gov/enforcement/case-summary-settlement-reached-newtown-creek-superfund-site" target="_blank">federal
-              superfund site</a>, and its banks also include New York State
+              superfund site</a>, and its banks also include state
             superfund and brownfield sites, and numerous businesses
             that use industrial solvents containing trichloroethylene, a known
             carcinogen. During Hurricane Sandy, residents reported standing water
@@ -142,7 +142,7 @@
           </p>
           <p>There are 171 of these facilities in New York City, but 11% are clustered
             within a half-mile of highly flood-vulnerable South Bronx SMIA. Accidential spills
-            of toxic materials at these facilities can easily spread to nearby wells, water bodies and homes.</p>
+            of toxic materials at these facilities can easily spread to nearby wells, water bodies, and homes.</p>
           <p>
             In addition to the SMIA, the area is also surrounded by numerous
             highways, fossil fuel power plants, waste transfer stations, and
@@ -159,9 +159,9 @@
             Toxic Release Inventory (TRI). TRI tracks the management of
             certain toxic chemicals that may pose a threat to human health and the
             environment. </P>
-          <P>As The New York Times reported, frequent and extensive flooding
-            from coastal storms like hurricanes <a href="https://www.nytimes.com/interactive/2018/02/06/climate/flood-toxic-chemicals.html" target="_blank">may
-              increase the risk of spills</a> at chemical facilities near waterways.
+          <P>Frequent and extensive flooding from coastal storms like
+            hurricanes <a href="https://www.nytimes.com/interactive/2018/02/06/climate/flood-toxic-chemicals.html" target="_blank">may
+            increase the risk of spills</a> at chemical facilities near waterways.
             Federal law does not explicitly require TRI sites to take extra
             precautions against flooding even if they are located in floodprone areas.
             <p>
@@ -191,38 +191,40 @@
           <h2>Who is at risk?</h2>
           <p>In addition to the immediate risks from storm surge, coastal storms
             increase the risk of environmental hazards which translate into negative
-            health effects, loss of wages, and housing instability. For these reasons
+            health effects, loss of wages, and housing instability. For these reasons,
             low-income residents are likely to bear the greatest burdens of environmental
             hazards.
           </P>
-          <p> All seven SMIAs are located in <a href="https://www.nyc-eja.org/wp-content/uploads/2010/06/NYC-EJA_Waterfront-Justice-Project_Presentation.pdf" target="_blank">predominantly low-income,
-            communities of color</a>.</p>
-            <p><i class="fas fa-info-circle"></i><small> Use the buttons below to explore
-            median household incomes of the census tracts within the SMIAs.</small> </p>
           <p>
-            <div class="row">
-              <div class="column" id="column-a">
-                <div class="legend">
-                  <h4>Median Household Income</h4>
-                  <div><span style="background-color: #8c510a"></span> Less than $24,000</div>
-                  <div><span style="background-color: #d8b365"></span> $24,000-$39,000</div>
-                  <div><span style="background-color: #f6e8c3"></span> $39,000-$53,000</div>
-                  <div><span style="background-color: #c7eae5"></span> $53,000-$68,000</div>
-                  <div><span style="background-color: #5ab4ac"></span> $68,000-$82,000</div>
-                  <div><span style="background-color: #01665e"></span> More than $82,000</div>
-                </div>
-              </div>
-              <div class="column" id="column-b">
-                <button class='flyto-button' id="flybrooklyn">Brooklyn Navy Yard</button></br>
-                <button class='flyto-button' id="flykill">Kill Van Kull</button></br>
-                <button class='flyto-button' id="flynewtown">Newtown Creek</button></br>
-                <button class='flyto-button' id="flyredhook">Red Hook Container Terminal</button></br>
-                <button class='flyto-button' id="flybronx">South Bronx</button></br>
-                <button class='flyto-button' id="flysi">Staten Island West Shore</button></br>
-                <button class='flyto-button' id="flysunset">Sunset Park</button></br>
+            <div class="credit"><img src="./images/sandy.jpg"></br>
+              <i>(Images credit: Curbed New York)</i></div>
+          </p>
+          <p> All seven SMIAs are located in <a href="https://www.nyc-eja.org/wp-content/uploads/2010/06/NYC-EJA_Waterfront-Justice-Project_Presentation.pdf" target="_blank">predominantly low-income,
+              communities of color</a>.</p>
+          <p><i class="fas fa-info-circle"></i><small> Use the buttons below to explore
+              median household incomes of the census tracts within the SMIAs.</small> </p>
+          <div class="row">
+            <div class="column" id="column-a">
+              <div class="legend">
+                <h3>Median Household Income</h3>
+                <div><span style="background-color: #8c510a"></span> Less than $24,000</div>
+                <div><span style="background-color: #d8b365"></span> $24,000-$39,000</div>
+                <div><span style="background-color: #f6e8c3"></span> $39,000-$53,000</div>
+                <div><span style="background-color: #c7eae5"></span> $53,000-$68,000</div>
+                <div><span style="background-color: #5ab4ac"></span> $68,000-$82,000</div>
+                <div><span style="background-color: #01665e"></span> More than $82,000</div>
               </div>
             </div>
-          </p>
+            <div class="column" id="column-b">
+              <button class='flyto-button' id="flybrooklyn">Brooklyn Navy Yard</button></br>
+              <button class='flyto-button' id="flykill">Kill Van Kull</button></br>
+              <button class='flyto-button' id="flynewtown">Newtown Creek</button></br>
+              <button class='flyto-button' id="flyredhook">Red Hook Container Terminal</button></br>
+              <button class='flyto-button' id="flybronx">South Bronx</button></br>
+              <button class='flyto-button' id="flysi">Staten Island West Shore</button></br>
+              <button class='flyto-button' id="flysunset">Sunset Park</button>
+            </div>
+          </div>
         </section>
       </div>
     </div>

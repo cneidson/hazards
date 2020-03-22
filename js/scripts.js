@@ -34,13 +34,6 @@ map.scrollZoom.disable();
 
 // wait for the initial style to Load
 map.on('style.load', function() {
-  var firstSymbolId;
-  for (var i = 0; i < layers.length; i++) {
-    if (layers[i].type === 'symbol') {
-      firstSymbolId = layers[i].id;
-      break;
-    }
-  }
 
   // Zones
   map.addSource('ezones', {
@@ -63,6 +56,7 @@ map.on('style.load', function() {
       'fill-opacity': 0.3,
     }
   });
+
 
   // Zone 2
   map.addLayer({
@@ -246,7 +240,7 @@ map.on('style.load', function() {
         820000,
         '#01665e',
       ],
-      'fill-opacity': 0.6,
+      'fill-opacity': 0.5,
       'fill-outline-color': 'black'
     }
   });
@@ -264,6 +258,8 @@ map.on('style.load', function() {
       'line-color': '#E066FF',
     }
   });
+
+  map.moveLayer('place_label', 'View SMIAs');
 
 });
 

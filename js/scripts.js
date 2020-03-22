@@ -259,7 +259,6 @@ map.on('style.load', function() {
     }
   });
 
-  map.moveLayer('place_label', 'View SMIAs');
 
 });
 
@@ -489,5 +488,4 @@ $('#flysi').on('click', function() {
     zoom: 13,
     essential: true,
   });
-  markers['HanaMichi'].togglePopup();
 })

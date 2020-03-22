@@ -17,4 +17,4 @@ at NYU Wagner.
 
 [Fontawesome](https://fontawesome.com/)
 
-[Google Fonts] (https://fonts.google.com/)
+[Google Fonts](https://fonts.google.com/)

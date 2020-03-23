@@ -266,13 +266,13 @@ var chapters = {
   'intro': {
     center: [-74.125656, 40.732835],
     zoom: 10,
-    essential: true
+    essential: true,
   },
 
   'rockaways': {
     center: [-73.940220, 40.578368],
     zoom: 11,
-    essential: true
+    essential: true,
   },
 
   'smias': {

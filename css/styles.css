@@ -191,11 +191,16 @@ section {
   padding: 3px;
   font-size: 14px;
   width: 160px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.9);
   font-family: 'Open Sans', sans-serif;
 }
 
 button:hover {
+  cursor: pointer;
+  background-color: #000000;
+}
+
+button:active {
   cursor: pointer;
   background-color: #000000;
 }
